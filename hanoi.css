@@ -1,0 +1,67 @@
+#towers {
+	background-color: #DEB887;
+	width: 800px;
+	height: 200px;
+}
+
+body{
+	background-color: pink;
+}
+
+
+h1{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100px	;
+}
+
+.tower {
+	background-color: black;
+	width: 20px;
+	height: 190px;
+	margin-top: 10px;
+	margin-left: 190px;
+	float: left;
+	vertical-align: bottom;
+
+
+}
+
+.disc {
+	float: center;
+	margin-bottom: 10px;
+	position: relative;
+	margin-left: -50px;
+	margin-top: 34px;
+	border-radius: 15px;
+
+
+
+}
+#disc3 {
+
+	background-color: orange;
+	width: 200px;
+	height: 30px;
+	margin-left: -100px;
+}
+
+
+#disc2 {
+
+	background-color: #00FFFF;
+	width: 150px;
+	height: 30px;
+	margin-left: -75px;
+}
+
+#disc1 {
+
+	background-color: blue;
+	width: 100px;
+	height: 30px;
+	margin-left: -50px;
+}
+
+
+
+

@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+		 <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+			<link rel="stylesheet" type="text/css" href="hanoi.css" />
+	<script type="text/javascript" src="hanoi.js"></script>
+	 	<script type="text/javascript" src="hanoiUI.js"></script>
+	</head>
+
+	<body>
+		<marquee behavior=scroll direction="right" scrollamount="10"><h1>TOWERS OF HANOI</h1>
+		<div id="towers">
+			<div id="1" class="tower" data="1">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="2" class="tower" data="2">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<div id="3" class="tower" data="3">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+
+		</div></marquee>
+
+		<script>
+	 		$(function () {
+	 			var game = new Hanoi.Game();
+				var ui = new Hanoi.UI(game);
+				ui.start();
+ 		})
+	 	</script>
+
+	</body>
+
+</html>
